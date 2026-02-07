@@ -140,7 +140,7 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-import dvariancetk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dvariancetk@deno/mod.js';
+import dvariancetk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dvariancetk@v0.1.1-deno/mod.js';
 ```
 
 #### dvariancetk( N, correction, x, strideX )
@@ -240,7 +240,7 @@ var v = dvariancetk.ndarray( 4, 1, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dvariancetk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dvariancetk@deno/mod.js';
+import dvariancetk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dvariancetk@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
